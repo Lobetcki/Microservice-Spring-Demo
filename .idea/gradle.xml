@@ -12,6 +12,16 @@
                   <project path="$PROJECT_DIR$/Eureca-Server" />
                 </projects>
               </build>
+              <build path="$PROJECT_DIR$/Eureca-Client" name="Eureca-Client">
+                <projects>
+                  <project path="$PROJECT_DIR$/Eureca-Client" />
+                </projects>
+              </build>
+              <build path="$PROJECT_DIR$/Api-Geteway" name="Api-Geteway">
+                <projects>
+                  <project path="$PROJECT_DIR$/Api-Geteway" />
+                </projects>
+              </build>
             </builds>
           </compositeBuild>
         </compositeConfiguration>
@@ -20,7 +30,27 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/Api-Geteway" />
+            <option value="$PROJECT_DIR$/Eureca-Client" />
             <option value="$PROJECT_DIR$/Eureca-Server" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/Api-Geteway" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/Api-Geteway" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/Api_Geteway" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/Api_Geteway" />
           </set>
         </option>
       </GradleProjectSettings>
@@ -39,6 +69,24 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$/Eureca-Server" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/Eureka_Client" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/Eureka_Client" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/Eureka_Server" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/Eureka_Server" />
           </set>
         </option>
       </GradleProjectSettings>

@@ -1,3 +1,5 @@
 rootProject.name = 'Microservice-Spring-Demo'
 
-includeBuild 'Eureca-Server'
+includeBuild 'Eureka_Server'
+includeBuild 'Eureka_Client'
+includeBuild 'Api_Geteway'
