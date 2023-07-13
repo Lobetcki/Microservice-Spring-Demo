@@ -7,19 +7,19 @@
         <compositeConfiguration>
           <compositeBuild compositeDefinitionSource="SCRIPT">
             <builds>
-              <build path="$PROJECT_DIR$/Eureca-Server" name="Eureca-Server">
+              <build path="$PROJECT_DIR$/Eureka_Server" name="Eureka_Server">
                 <projects>
-                  <project path="$PROJECT_DIR$/Eureca-Server" />
+                  <project path="$PROJECT_DIR$/Eureka_Server" />
                 </projects>
               </build>
-              <build path="$PROJECT_DIR$/Eureca-Client" name="Eureca-Client">
+              <build path="$PROJECT_DIR$/Eureka_Client" name="Eureka_Client">
                 <projects>
-                  <project path="$PROJECT_DIR$/Eureca-Client" />
+                  <project path="$PROJECT_DIR$/Eureka_Client" />
                 </projects>
               </build>
-              <build path="$PROJECT_DIR$/Api-Geteway" name="Api-Geteway">
+              <build path="$PROJECT_DIR$/Api_Geteway" name="Api_Geteway">
                 <projects>
-                  <project path="$PROJECT_DIR$/Api-Geteway" />
+                  <project path="$PROJECT_DIR$/Api_Geteway" />
                 </projects>
               </build>
             </builds>
@@ -30,9 +30,9 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
-            <option value="$PROJECT_DIR$/Api-Geteway" />
-            <option value="$PROJECT_DIR$/Eureca-Client" />
-            <option value="$PROJECT_DIR$/Eureca-Server" />
+            <option value="$PROJECT_DIR$/Api_Geteway" />
+            <option value="$PROJECT_DIR$/Eureka_Client" />
+            <option value="$PROJECT_DIR$/Eureka_Server" />
           </set>
         </option>
       </GradleProjectSettings>
