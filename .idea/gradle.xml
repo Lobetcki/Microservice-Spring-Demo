@@ -22,32 +22,51 @@
                   <project path="$PROJECT_DIR$/Api_Geteway" />
                 </projects>
               </build>
+              <build path="$PROJECT_DIR$/Eureka_Client_2" name="Eureka_Client_2">
+                <projects>
+                  <project path="$PROJECT_DIR$/Eureka_Client_2" />
+                </projects>
+              </build>
             </builds>
           </compositeBuild>
         </compositeConfiguration>
+        <option name="delegatedBuild" value="true" />
+        <option name="testRunner" value="GRADLE" />
         <option name="distributionType" value="DEFAULT_WRAPPED" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="gradleHome" value="$PROJECT_DIR$/../../Gradle/gradle-8.2.1" />
+        <option name="gradleJvm" value="corretto-17 (3)" />
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/Api_Geteway" />
             <option value="$PROJECT_DIR$/Eureka_Client" />
+            <option value="$PROJECT_DIR$/Eureka_Client_2" />
             <option value="$PROJECT_DIR$/Eureka_Server" />
           </set>
         </option>
       </GradleProjectSettings>
       <GradleProjectSettings>
+        <option name="delegatedBuild" value="true" />
+        <option name="testRunner" value="GRADLE" />
         <option name="distributionType" value="DEFAULT_WRAPPED" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/Api-Geteway" />
+        <option name="gradleHome" value="$PROJECT_DIR$/../../Gradle/gradle-8.2.1" />
+        <option name="gradleJvm" value="corretto-17 (3)" />
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$/Api-Geteway" />
           </set>
         </option>
+        <option name="resolveExternalAnnotations" value="false" />
       </GradleProjectSettings>
       <GradleProjectSettings>
+        <option name="delegatedBuild" value="true" />
+        <option name="testRunner" value="GRADLE" />
         <option name="distributionType" value="DEFAULT_WRAPPED" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/Api_Geteway" />
+        <option name="gradleHome" value="$PROJECT_DIR$/../../Gradle/gradle-8.2.1" />
+        <option name="gradleJvm" value="corretto-17 (3)" />
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$/Api_Geteway" />
@@ -55,26 +74,40 @@
         </option>
       </GradleProjectSettings>
       <GradleProjectSettings>
+        <option name="delegatedBuild" value="false" />
+        <option name="testRunner" value="PLATFORM" />
         <option name="distributionType" value="DEFAULT_WRAPPED" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/Eureca-Client" />
+        <option name="gradleHome" value="$PROJECT_DIR$/../../Gradle/gradle-8.2.1" />
+        <option name="gradleJvm" value="corretto-17 (3)" />
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$/Eureca-Client" />
           </set>
         </option>
+        <option name="resolveExternalAnnotations" value="false" />
       </GradleProjectSettings>
       <GradleProjectSettings>
+        <option name="delegatedBuild" value="true" />
+        <option name="testRunner" value="GRADLE" />
         <option name="distributionType" value="DEFAULT_WRAPPED" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/Eureca-Server" />
+        <option name="gradleHome" value="$PROJECT_DIR$/../../Gradle/gradle-8.2.1" />
+        <option name="gradleJvm" value="corretto-17 (3)" />
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$/Eureca-Server" />
           </set>
         </option>
+        <option name="resolveExternalAnnotations" value="false" />
       </GradleProjectSettings>
       <GradleProjectSettings>
+        <option name="delegatedBuild" value="true" />
+        <option name="testRunner" value="GRADLE" />
         <option name="distributionType" value="DEFAULT_WRAPPED" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/Eureka_Client" />
+        <option name="gradleHome" value="$PROJECT_DIR$/../../Gradle/gradle-8.2.1" />
+        <option name="gradleJvm" value="corretto-17 (3)" />
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$/Eureka_Client" />
@@ -82,8 +115,25 @@
         </option>
       </GradleProjectSettings>
       <GradleProjectSettings>
+        <option name="delegatedBuild" value="true" />
+        <option name="testRunner" value="GRADLE" />
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/Eureka_Client_2" />
+        <option name="gradleHome" value="$PROJECT_DIR$/../../Gradle/gradle-8.2.1" />
+        <option name="gradleJvm" value="corretto-17 (3)" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/Eureka_Client_2" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="delegatedBuild" value="true" />
+        <option name="testRunner" value="GRADLE" />
         <option name="distributionType" value="DEFAULT_WRAPPED" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/Eureka_Server" />
+        <option name="gradleHome" value="$PROJECT_DIR$/../../Gradle/gradle-8.2.1" />
+        <option name="gradleJvm" value="corretto-17 (3)" />
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$/Eureka_Server" />
