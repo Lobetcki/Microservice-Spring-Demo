@@ -1,0 +1,12 @@
+[submodule "Api_Geteway"]
+	path = Api_Geteway
+	url = https://github.com/Lobetcki/Microservice-Spring-Demo.git
+[submodule "DriverService"]
+	path = DriverService
+	url = https://github.com/Lobetcki/Microservice-Spring-Demo.git
+[submodule "CarService"]
+	path = CarService
+	url = https://github.com/Lobetcki/Microservice-Spring-Demo.git
+[submodule "Eureka_Server"]
+	path = Eureka_Server
+	url = https://github.com/Lobetcki/Microservice-Spring-Demo.git
