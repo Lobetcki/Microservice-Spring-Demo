@@ -23,11 +23,6 @@ public class DriverServiceImpl implements DriverService {
     }
 
     @Override
-    public List<DriverDTO> getDriversByCarId(Long carId) {
-        return null;
-    }
-
-    @Override
     public List<DriverDTO> getAllDrivers(Integer page, Integer size, String sortBy) {
         return null;
     }
@@ -63,11 +58,13 @@ public class DriverServiceImpl implements DriverService {
         return true;
     }
 
-    //5 Информация об авто водителя
-//    @Override
-//    public List<CarDTO> getDriverCars(Integer id) {
-//        return null;
-//    }
+    //     5 Информация об авто водителя
+    @Override
+    public String getDriverCar(Integer driverId) {
+        return driverRepositories.findById(driverId)
+                .orElseThrow(IdNotFoundException::new)
+                .getCarsVIN();
+    }
 
     // 6 Назначение авто для водителя
     @Override
@@ -79,18 +76,5 @@ public class DriverServiceImpl implements DriverService {
             return true;
         }
         return false;
-    }
-
-    @Override
-    public BalanceDTO getBalance(Long driverId, String currency) {
-        return null;
-    }
-
-    //     5 Информация об авто водителя
-    @Override
-    public String getDriverCar(Integer driverId) {
-        return driverRepositories.findById(driverId)
-                .orElseThrow(IdNotFoundException::new)
-                .getCarsVIN();
     }
 }

@@ -1,6 +1,5 @@
 package com.example.driverservice.controller;
 
-import com.example.driverservice.dto.BalanceDTO;
 import com.example.driverservice.dto.CarDTO;
 import com.example.driverservice.dto.DriverDTO;
 import com.example.driverservice.service.DriverService;
@@ -60,20 +59,6 @@ public class DriversController {
         boolean deleted = driverService.deleteDriver(id);
         if (deleted) {
             return ResponseEntity.noContent().build();
-        } else {
-            return ResponseEntity.notFound().build();
-        }
-    }
-
-
-
-    //7 Соотояние счета водителя в определенной валюте
-    @GetMapping("/{driverId}/balance/{currency}")
-    public ResponseEntity<BalanceDTO> getDriverBalance(@PathVariable Long driverId,
-                                                       @PathVariable String currency) {
-        BalanceDTO balanceDTO = driverService.getBalance(driverId, currency);
-        if (balanceDTO != null) {
-            return ResponseEntity.ok(balanceDTO);
         } else {
             return ResponseEntity.notFound().build();
         }

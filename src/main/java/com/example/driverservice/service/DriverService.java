@@ -9,7 +9,6 @@ import java.util.List;
 
 @Service
 public interface DriverService {
-    List<DriverDTO> getDriversByCarId(Long carId);
 
     List<DriverDTO> getAllDrivers(Integer page, Integer size, String sortBy);
 
@@ -25,14 +24,11 @@ public interface DriverService {
     //4 Удалить водителя
     boolean deleteDriver(Integer id);
 
-//    //5 Информация об авто водителя
-//    List<CarDTO> getDriverCars(Integer id);
+    //     5 Информация об авто водителя
+    String getDriverCar(Integer driverId);
 
     // 6 Назначение авто для водителя
     boolean assignCarToDriver(Integer driverId, String vin);
 
-    BalanceDTO getBalance(Long driverId, String currency);
 
-    //     5 Информация об авто водителя
-    String getDriverCar(Integer driverId);
 }
