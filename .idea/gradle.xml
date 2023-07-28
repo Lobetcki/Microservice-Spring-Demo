@@ -12,19 +12,19 @@
                   <project path="$PROJECT_DIR$/Eureka_Server" />
                 </projects>
               </build>
-              <build path="$PROJECT_DIR$/Eureka_Client" name="Eureka_Client">
+              <build path="$PROJECT_DIR$/CarService" name="CarService">
                 <projects>
-                  <project path="$PROJECT_DIR$/Eureka_Client" />
+                  <project path="$PROJECT_DIR$/CarService" />
+                </projects>
+              </build>
+              <build path="$PROJECT_DIR$/DriverService" name="DriverService">
+                <projects>
+                  <project path="$PROJECT_DIR$/DriverService" />
                 </projects>
               </build>
               <build path="$PROJECT_DIR$/Api_Geteway" name="Api_Geteway">
                 <projects>
                   <project path="$PROJECT_DIR$/Api_Geteway" />
-                </projects>
-              </build>
-              <build path="$PROJECT_DIR$/Eureka_Client_2" name="Eureka_Client_2">
-                <projects>
-                  <project path="$PROJECT_DIR$/Eureka_Client_2" />
                 </projects>
               </build>
             </builds>
@@ -40,8 +40,8 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/Api_Geteway" />
-            <option value="$PROJECT_DIR$/Eureka_Client" />
-            <option value="$PROJECT_DIR$/Eureka_Client_2" />
+            <option value="$PROJECT_DIR$/CarService" />
+            <option value="$PROJECT_DIR$/DriverService" />
             <option value="$PROJECT_DIR$/Eureka_Server" />
           </set>
         </option>
@@ -70,6 +70,28 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$/Api_Geteway" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/CarService" />
+        <option name="gradleHome" value="$PROJECT_DIR$/../../Gradle/gradle-8.2.1" />
+        <option name="gradleJvm" value="corretto-17 (3)" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/CarService" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/DriverService" />
+        <option name="gradleHome" value="$PROJECT_DIR$/../../Gradle/gradle-8.2.1" />
+        <option name="gradleJvm" value="corretto-17 (3)" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/DriverService" />
           </set>
         </option>
       </GradleProjectSettings>

@@ -3,6 +3,8 @@
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/Api_Geteway" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/CarService" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/DriverService" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/Eureka_Client" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/Eureka_Client_2" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/Eureka_Server" vcs="Git" />
