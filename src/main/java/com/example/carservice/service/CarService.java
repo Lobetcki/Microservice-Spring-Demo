@@ -38,9 +38,9 @@ public interface CarService {
     //9 Поиск авто
     List<CarDTO> searchCars(String vin, String manufacturer, String brand, Year year, String stateNumber);
 
-    // Получение информации о водителе авто
+    // 10 Получение информации о водителе авто
     Integer getCarDriver(String vin);
 
-    // Назначение авто для водителя
+    // 11 Назначение авто для водителя
     boolean appointDriver(String vin,int driverId);
 }
