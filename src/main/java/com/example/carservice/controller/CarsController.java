@@ -153,7 +153,8 @@ public class CarsController {
     public ResponseEntity<Void> assignCarDriver(@PathVariable String vin,
                                                 @PathVariable int driverId) {
         // Выполняем HTTP POST запрос к Сервису Drivers для установки владения водителем автомобилем
-        String url = "http://localhost:8765/driver/" + vin + "/cars/" + driverId;
+//        String url = "http://localhost:8765/drivers/" + vin + "/cars/" + driverId;
+        String url = "hlb://driverservice/driver/" + vin + "/cars/" + driverId;
         ResponseEntity<Void> response = restTemplate.postForEntity(url, null, Void.class);
         if (response.getStatusCode().is2xxSuccessful()) {
             boolean appoint = carService.appointDriver(vin, driverId);
