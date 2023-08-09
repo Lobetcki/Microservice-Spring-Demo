@@ -13,13 +13,14 @@ public class GetewayConfig {
                 // Маршруты для микросервиса Cars
                 .route("car_route", r -> r
                         .path("/cars/**")
+                        .filters(filter  -> filter.stripPrefix(1))
                         .uri("lb://carservice"))
 
                 // Маршруты для микросервиса Drivers
                 .route("driver_route", r -> r
-                .path("/drivers/**")
-                .uri("lb://driverservice"))
-
+                        .path("/drivers/**")
+                        .filters(filter  -> filter.stripPrefix(1))
+                        .uri("lb://driverservice"))
                 .build();
     }
 }
