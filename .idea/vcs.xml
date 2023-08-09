@@ -6,7 +6,8 @@
     <mapping directory="$PROJECT_DIR$/CarService" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/DriverService" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/Eureka_Client" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/Eureka_Client_2" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Eureka_Client_2" vcs="" />
     <mapping directory="$PROJECT_DIR$/Eureka_Server" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/demo_telegram_bot" vcs="Git" />
   </component>
 </project>

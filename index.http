@@ -1,0 +1,10 @@
+POST http://localhost:8765/cars/car
+Content-Type: application/json
+
+{
+  "vin": "1",
+  "stateNumber": "1",
+  "manufacturer": "1",
+  "brand": "1",
+  "yearRelease": 2000
+}
